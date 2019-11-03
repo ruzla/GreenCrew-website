@@ -14,6 +14,7 @@ import { ForGroupsComponent } from './pages/information/for-groups/for-groups.co
 import { MissionStatementComponent } from './pages/information/mission-statement/mission-statement.component';
 import { TestimonialsComponent } from './pages/information/testimonials/testimonials.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ForProfessionalsComponent,
     ForGroupsComponent,
     MissionStatementComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -37,4 +39,5 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
