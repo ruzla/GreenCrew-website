@@ -9,9 +9,12 @@ import { TestimonialsComponent } from './pages/information/testimonials/testimon
 import { GalleryComponent } from './pages/gallery/gallery.component';
 import { LocationComponent } from './pages/location/location.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
+import { HomeComponent } from './home/home.component';
 
 
 const routes: Routes = [
+     { path: 'home', component: HomeComponent },
+     { path: '',   redirectTo: 'home', pathMatch: 'full' },
      { path: 'join-us', component: JoinUsComponent },
      { path: 'for-parents', component: ForParentsComponent },
      { path: 'for-professionals', component: ForProfessionalsComponent },
