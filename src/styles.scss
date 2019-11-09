@@ -30,3 +30,6 @@ $GreenCrew-website-theme: mat-light-theme($GreenCrew-website-primary, $GreenCrew
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+//variables
+@import './sass/variables.scss'

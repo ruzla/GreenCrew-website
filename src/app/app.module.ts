@@ -15,6 +15,9 @@ import { MissionStatementComponent } from './pages/information/mission-statement
 import { TestimonialsComponent } from './pages/information/testimonials/testimonials.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
+import { InfoNavDropComponent } from './navbar/info-nav-drop/info-nav-drop.component';
+import { ImageSliderComponent } from './home/image-slider/image-slider.component';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
 
 @NgModule({
   declarations: [
@@ -29,12 +32,15 @@ import { HomeComponent } from './home/home.component';
     ForGroupsComponent,
     MissionStatementComponent,
     TestimonialsComponent,
-    HomeComponent
+    HomeComponent,
+    InfoNavDropComponent,
+    ImageSliderComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    SlickCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
